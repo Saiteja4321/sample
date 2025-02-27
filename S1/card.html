@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+
+</head>
+<body>
+    <div id="root"></div>
+    <script>
+        var img = React.createElement("img",{src:"C:\Users\Lenovo\Downloads\W3C HTML5 Logo1_files\mark-only-icon.png",width:400,height:400%})
+        var h2 = React.createElement("h2",null,"SAI KIRAN")
+        var p = React.createElement("p",null,"good person")
+        var button = React.createElement("button",null,"porfile")
+        var card = React.createElement("div",{id:"card"},[img,h2])
+        ReactDom.render (card,document.getElementById("root"))
+    </script>
+    
+</body>
+</html>
